@@ -1,0 +1,6 @@
+CREATE TABLE [dbo].[Product] (
+    [ProductID]    INT          IDENTITY (1, 1) NOT NULL,
+    [ProductName]  VARCHAR (50) NOT NULL,
+    [ProductPrice] INT          NOT NULL,
+    PRIMARY KEY CLUSTERED ([ProductID] ASC)
+);
